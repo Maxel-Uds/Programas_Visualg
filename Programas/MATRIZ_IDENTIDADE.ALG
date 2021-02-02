@@ -1,4 +1,5 @@
 algoritmo "Matriz_Identidade"
+//Cri uma matriz identidade 3×3
 var
    N: vetor[1..3, 1..3] de inteiro
    l, c: inteiro
