@@ -1,4 +1,5 @@
 algoritmo "somador"
+//Server para somar uma quantidade N de n√∫meros
 var
    mao, N, Soma, Maior, C, Menor, SMaior, SMenor: inteiro
    Resp: caractere
@@ -6,7 +7,7 @@ inicio
    Repita
    LimpaTela
    mao <- 1
-   Escreva("Quantos n˙meros vocÍ quer somar? ")
+   Escreva("Quantos n√∫meros voc√™ quer somar? ")
    Leia(C)
    Enquanto (mao<=C) faca
       Escreva("Escreva o ",mao,"o. valor: ")
@@ -28,7 +29,7 @@ inicio
       mao <- (mao+1)
       Soma <- Soma+N
    FimEnquanto
-   Escreval("A soma dos valores È igual a: ",Soma)
+   Escreval("A soma dos valores √© igual a: ",Soma)
    Escreval("E o maior valor digitado foi igual a: ",SMaior)
    Escreval("E o menor valor digitado foi igual a: ",SMenor)
    Escreva("Quer continuar somando?")
