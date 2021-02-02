@@ -1,4 +1,5 @@
 algoritmo "num_primo"
+//Programa para descobrir se um nÃºmero Ã© ou nÃ£o primo
 var
    N, C, ContD: inteiro
    Resp: caractere
@@ -6,7 +7,7 @@ inicio
    Repita
       C <- 1
       ContD <- 0
-      Escreva("Digite um número para verificar se é primo: ")
+      Escreva("Digite um nÃºmero para verificar se Ã© primo: ")
       Leia(N)
       Repita
          Se (N%C=0) entao
@@ -15,11 +16,11 @@ inicio
          C <- C+1
       Ate (C>N)
       Se (ContD>2) entao
-         Escreval("O número digitado não é primo.")
+         Escreval("O nÃºmero digitado nÃ£o Ã© primo.")
       Senao
-         Escreval("O número digitado é primo.")
+         Escreval("O nÃºmero digitado Ã© primo.")
       Fimse
-      Escreva("Você quer testar outro número? [S/N] ")
+      Escreva("VocÃª quer testar outro nÃºmero? [S/N] ")
       Leia(Resp)
       LimpaTela
    Ate (Resp = "N")
