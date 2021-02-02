@@ -1,4 +1,5 @@
 algoritmo "IMC"
+//Programa para calcular o IMC de alguém
 var
    IMC, M, A: real
 inicio
