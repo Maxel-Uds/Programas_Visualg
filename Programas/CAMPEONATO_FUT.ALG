@@ -1,4 +1,5 @@
 algoritmo "Campeonato_Fut"
+//Programa para organizar jogos de futebol com três times
 var
    nome: vetor[1..3]de caractere
    C, i: inteiro
