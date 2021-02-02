@@ -1,4 +1,5 @@
 algoritmo "fatorial"
+//Calcula o fatorial de um nÃºmero
 var
    N, Fa: inteiro
    R: caractere
@@ -15,11 +16,11 @@ FimFuncao
 inicio
    Repita
       LimpaTela
-      Escreva("Digite um número para calcular o fatorial: ")
+      Escreva("Digite um nÃºmero para calcular o fatorial: ")
       Leia(N)
       Fa <- fatorial(N)
-      Escreval("O valor de ",N,"! é igual a: ",Fa)
-      Escreva("Você quer calcular outo número? [S/N] ")
+      Escreval("O valor de ",N,"! Ã© igual a: ",Fa)
+      Escreva("VocÃª quer calcular outo nÃºmero? [S/N] ")
       Leia(R)
    Ate (R="N")
 
