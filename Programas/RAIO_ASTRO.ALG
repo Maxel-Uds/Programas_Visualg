@@ -1,5 +1,5 @@
 algoritmo "Raio_Astro"
-/Programa para calcular o raio e a gravidade de um astro com base no diâmetro aparente, distância e massa/
+//Programa para calcular o raio e a gravidade de um astro com base no diâmetro aparente, distância e massa
 var
    UA, Dis, Diam, Raio, Massa, Grav:real
    Unidade, Potencia:inteiro
