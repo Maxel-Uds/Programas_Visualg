@@ -1,4 +1,5 @@
 algoritmo "Baskara"
+//Programa feito para calcular as ra√≠zes de uma equa√ß√£o do segundo grau
 var
    A: real
    B: real
@@ -10,7 +11,7 @@ inicio
    Repita
       LimpaTela
       Escreval("----------------------")
-      Escreval("PROGRAMA BASK¡RA F¡CIL")
+      Escreval("PROGRAMA BASK√ÅRA F√ÅCIL")
       Escreval("----------------------")
       Escreva("Informe o valor de A: ")
       Leia(A)
@@ -19,32 +20,32 @@ inicio
       Escreva("Informe o valor de C: ")
       Leia(C)
       Escreval("----------------------------")
-      Escreval("Sua equaÁ„o ser·: ", A,"X≤",B,"X",C)
+      Escreval("Sua equa√ß√£o ser√°: ", A,"X¬≤",B,"X",C)
       Escreval("----------------------------")
       D<- exp(B,2)-4*A*C
       Escreval("-------------------------")
-      Escreval("Delta ser· igual a: ",D)
+      Escreval("Delta ser√° igual a: ",D)
       Escreval("-------------------------")
       Se (D>0) entao
          X1<- ((-B)+ raizq(D))/(2*A)
          X2<- ((-B)- raizq(D))/(2*A)
          EscrevaL("---------------------------------------------------------------------------------------")
-         Escreval("A equaÁ„o tem duas raÌzes reais e distintas, com X1 igual a ",X1:3:2," e X2 igual a ",X2:3:2,".")
+         Escreval("A equa√ß√£o tem duas ra√≠zes reais e distintas, com X1 igual a ",X1:3:2," e X2 igual a ",X2:3:2,".")
          Escreval("---------------------------------------------------------------------------------------")
       Senao
          Se (D=0) entao
             X1<- ((-B)+ raizq(D))/(2*A)
             X2<- ((-B)- raizq(D))/(2*A)
             Escreval("-------------------------------------------------")
-            Escreval("A equaÁ„o tem duas raÌzes reais e iguais a ",X1:3:2,".")
+            Escreval("A equa√ß√£o tem duas ra√≠zes reais e iguais a ",X1:3:2,".")
             Escreval("-------------------------------------------------")
          Senao
             Escreval("-----------------------------------------------")
-            Escreval("A equaÁ„o n„o tem raÌzes no conjunto dos reais.")
+            Escreval("A equa√ß√£o n√£o tem ra√≠zes no conjunto dos reais.")
             Escreval("-----------------------------------------------")
          Fimse
       Fimse
-      Escreva("VocÍ deseja calcular as raÌzes de outra equaÁ„o? [s/n] ")
+      Escreva("Voc√™ deseja calcular as ra√≠zes de outra equa√ß√£o? [s/n] ")
       Leia(Resp)
    Ate(Resp="n")
 fimalgoritmo
