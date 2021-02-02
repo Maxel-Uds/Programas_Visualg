@@ -1,4 +1,5 @@
 algoritmo "Raio_Astro"
+/Programa para calcular o raio e a gravidade de um astro com base no di√¢metro aparente, dist√¢ncia e massa/
 var
    UA, Dis, Diam, Raio, Massa, Grav:real
    Unidade, Potencia:inteiro
@@ -14,42 +15,42 @@ FimFuncao
 inicio
    Repita
    LimpaTela
-   Escreva("Qual a dist‚ncia que o astro est· da terra em UA? ")
+   Escreva("Qual a dist√¢ncia que o astro est√° da terra em UA? ")
    Leia(UA)
    Dis <- UA*150000000
-   Escreval("Em qual unidade de medida est· o diametro aparente?")
+   Escreval("Em qual unidade de medida est√° o diametro aparente?")
    Escreval("[1] Graus")
    Escreval("[2] Minutos")
    Escreval("[3] Segundos")
    Leia(Unidade)
    Escolha (Unidade)
    Caso 1
-      Escreva("Digite o valor do di‚metro aparente: ")
+      Escreva("Digite o valor do di√¢metro aparente: ")
       Leia(Diam)
    Caso 2
-      Escreva("Digite o valor do di‚metro aparente: ")
+      Escreva("Digite o valor do di√¢metro aparente: ")
       Leia(Diam)
       Diam <- Diam/60
    Caso 3
-      Escreva("Digite o valor do di‚metro aparente: ")
+      Escreva("Digite o valor do di√¢metro aparente: ")
       Leia(Diam)
       Diam <- Diam/3600
    FimEscolha
    Diam <- diametro(Diam)
    Raio <- Dis*Diam
-   Escreva("VocÍ tambÈm gostaria de calcular a gravidade que o astro exerce na superfÌcie? [s/n] ")
+   Escreva("Voc√™ tamb√©m gostaria de calcular a gravidade que o astro exerce na superf√≠cie? [s/n] ")
    Leia(Resp1)
    Se (Resp1="s") entao
       LimpaTela
       Escreva("Digite a massa do astro: ")
       Leia(Massa)
-      Escreva("Digite o valor da potÍncia de 10, se n„o houver digite 0: ")
+      Escreva("Digite o valor da pot√™ncia de 10, se n√£o houver digite 0: ")
       Leia(Potencia)
       Grav <- ((6.67408*10^-11)*(Massa*10^Potencia))/(1000*Raio)^2
       LimpaTela
-      Escreval("A acelaraÁ„o da gravidade do astro em m/s≤ È igual a: ",Grav:3:2)
+      Escreval("A acelara√ß√£o da gravidade do astro em m/s¬≤ √© igual a: ",Grav:3:2)
    FimSe
-   Escreval("O raio do astro em Km ser· igual a: ",Raio:12:0)
+   Escreval("O raio do astro em Km ser√° igual a: ",Raio:12:0)
    Escreva("Gostaria de calcular o raio de outro astro? [s/n] ")
    Leia(Resp2)
    Ate (Resp2="n")
