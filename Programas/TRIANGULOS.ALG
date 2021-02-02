@@ -1,4 +1,5 @@
 algoritmo "triangulos"
+//Serve para conferir qual o tipo de tri√¢ngulo com os lados digitados
 var
    L1, L2, L3: real
    Eq, Es, Is, Tri: logico
@@ -13,10 +14,10 @@ inicio
    Es<-((L1<>L2)e(L3<>L2)e(L3<>L1))
    Is<-((L1=L2)e(L2<>L3)ou(L1=L3)e(L3<>L2)ou(L3=L2)e(L2<>L1))
    Tri<-((L1+L2>L3)e(L1+L3>L2)e(L2+L3>L1))
-   escreval("Os valores podem formam um tri‚ngulo? ", Tri)
-   escreval("O tri‚ngulo È equil·tero? ", Eq)
-   escreval("O tri‚ngulo È escaleno? ", Es)
-   escreva("O tri‚ngulo È isoceles? ", Is)
+   escreval("Os valores podem formam um tri√¢ngulo? ", Tri)
+   escreval("O tri√¢ngulo √© equil√°tero? ", Eq)
+   escreval("O tri√¢ngulo √© escaleno? ", Es)
+   escreva("O tri√¢ngulo √© isoceles? ", Is)
 
 
 fimalgoritmo
