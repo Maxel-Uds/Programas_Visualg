@@ -1,4 +1,5 @@
 algoritmo "Contador"
+//Serve para contar de um número escolhido até outro também escolhido
 var
    In, Fi, A, B, C: real
 
