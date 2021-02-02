@@ -1,4 +1,5 @@
 algoritmo "Matriz2"
+//Programa para mostrar dados da matriz mas n√£o mostra a matriz
 var
    N: vetor[1..4, 1..4] de inteiro
    l, c, DiaPr, PrLinha2, Maior: inteiro
@@ -29,8 +30,8 @@ inicio
       Fimpara
       Escreval()
    Fimpara
-   Escreval("A soma da diagonal principal È igual a: ",DiaPr)
-   Escreval("O produto dos valores da segunda linha s„o iguais a: ",PrLinha2)
-   Escreva("O maior valor da tercieira coluna È igual a: ",Maior)
+   Escreval("A soma da diagonal principal √© igual a: ",DiaPr)
+   Escreval("O produto dos valores da segunda linha s√£o iguais a: ",PrLinha2)
+   Escreva("O maior valor da tercieira coluna √© igual a: ",Maior)
 
 fimalgoritmo
