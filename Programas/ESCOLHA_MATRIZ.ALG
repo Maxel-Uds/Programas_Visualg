@@ -1,4 +1,5 @@
 algoritmo "Escolha_Matriz"
+//Cria uma matriz 4√ó4 com elementos escolhidos pelo usu√°rio
 var
    M: vetor[1..4, 1..4] de inteiro
    l, c, Op, Esp: inteiro
@@ -14,11 +15,11 @@ inicio
       Escreval("--------------------")
       Escreval("[1] Mostrar a matriz")
       Escreval("[2] Diagonal principal")
-      Escreval("[3] Tri‚ngulo superior")
-      Escreval("[4] Tri‚ngulo inferior")
+      Escreval("[3] Tri√¢ngulo superior")
+      Escreval("[4] Tri√¢ngulo inferior")
       Escreval("[5] Sair")
       Escreval("----------------------")
-      Escreva("OP«√O: ")
+      Escreva("OP√á√ÉO: ")
       Leia(Op)
       Escolha Op
       Caso 1
