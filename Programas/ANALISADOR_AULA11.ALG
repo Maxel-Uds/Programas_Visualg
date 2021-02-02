@@ -1,12 +1,13 @@
 algoritmo "Analisador_aula11"
+//Analisador de nÃºmeros. Analisa as propriedades dos nÃºmeros digitados
 var
      C, Soma, Num, Dv5, Nulo, Pares, Valor: inteiro
      Media: real
 inicio
-      Escreva("Quantos valores você quer analisar? ")
+      Escreva("Quantos valores vocÃª quer analisar? ")
       Leia(Valor)
       Para C <- 1 ate Valor faca
-           Escreva("Digite um número: ")
+           Escreva("Digite um nÃºmero: ")
            Leia(Num)
            Soma <- Num + Soma
            Se (Num%5=0) entao
@@ -20,10 +21,10 @@ inicio
            FimSe
       FimPara
       Media <- (Soma/Valor)
-      Escreval("A soma dos valores digitados é igual a: ",Soma)
-      Escreval("A quantidade de números divisiveis por 5 é igual a: ",Dv5)
-      Escreval("O número de valores nulos é igual a: ", Nulo)
-      Escreval("A soma dos valores pares é igual a: ", Pares)
-      Escreva("A média entre os valores é igual a: ",Media)
+      Escreval("A soma dos valores digitados Ã© igual a: ",Soma)
+      Escreval("A quantidade de nÃºmeros divisiveis por 5 Ã© igual a: ",Dv5)
+      Escreval("O nÃºmero de valores nulos Ã© igual a: ", Nulo)
+      Escreval("A soma dos valores pares Ã© igual a: ", Pares)
+      Escreva("A mÃ©dia entre os valores Ã© igual a: ",Media)
 
 fimalgoritmo
