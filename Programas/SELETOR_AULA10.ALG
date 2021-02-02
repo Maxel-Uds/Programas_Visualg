@@ -1,4 +1,5 @@
 algoritmo "Seletor_aula10"
+//Quantificador de pessoas com base em suas caracterÃ­sticas
 var
    S, R: caractere
    ID, C, M, H, H2, H3, H4, M2, M3, M4: real
@@ -53,14 +54,14 @@ inicio
       Leia(R)
       LimpaTela
    Ate(R="N")
-   Escreval("O número de homens com mais de 18 anos e cabelos pretos é igual: ",H)
-   Escreval("O número de homens com mais de 18 anos e cabelos castanhos é igual: ",H2)
-   Escreval("O número de homens com mais de 18 anos e cabelos loiros é igual: ",H3)
-   Escreval("O número de homens com mais de 18 anos e cabelos ruivos é igual: ",H4)
-   Escreval("O número de mulheres com mais de 18 anos e cabelos pretos é de: ",M)
-   Escreval("O número de mulheres com mais de 18 anos e cabelos castanhos é de: ",M2)
-   Escreval("O número de mulheres com mais de 18 anos e cabelos loiros é de: ",M3)
-   Escreva("O número de mulheres com mais de 18 anos e cabelos ruivos é de: ",M4)
+   Escreval("O nÃºmero de homens com mais de 18 anos e cabelos pretos Ã© igual: ",H)
+   Escreval("O nÃºmero de homens com mais de 18 anos e cabelos castanhos Ã© igual: ",H2)
+   Escreval("O nÃºmero de homens com mais de 18 anos e cabelos loiros Ã© igual: ",H3)
+   Escreval("O nÃºmero de homens com mais de 18 anos e cabelos ruivos Ã© igual: ",H4)
+   Escreval("O nÃºmero de mulheres com mais de 18 anos e cabelos pretos Ã© de: ",M)
+   Escreval("O nÃºmero de mulheres com mais de 18 anos e cabelos castanhos Ã© de: ",M2)
+   Escreval("O nÃºmero de mulheres com mais de 18 anos e cabelos loiros Ã© de: ",M3)
+   Escreva("O nÃºmero de mulheres com mais de 18 anos e cabelos ruivos Ã© de: ",M4)
 
 
 
