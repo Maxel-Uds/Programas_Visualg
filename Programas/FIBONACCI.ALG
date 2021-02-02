@@ -1,4 +1,5 @@
 algoritmo "Fibonacci"
+//Reproduz os 16 primeiros números de Fibonacci
 var
    C, T1, T2, T3: inteiro
 funcao ProximoFibo (var A, B: inteiro):inteiro
