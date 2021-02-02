@@ -1,9 +1,10 @@
 algoritmo "tabuada"
+//Cria uma tabuada
 var
    N, S, T: real
 inicio
    S <- 0
-   Escreva("Qual valor da multiplicação? ")
+   Escreva("Qual valor da multiplicaÃ§Ã£o? ")
    Leia(N)
    Repita
       T <- S*N
