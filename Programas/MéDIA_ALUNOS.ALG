@@ -1,4 +1,5 @@
-algoritmo "MÈdia_alunos"
+algoritmo "M√©dia_alunos"
+//Programa para calcular a m√©dia de N alunos e mostram que passou
 var
    nome: vetor[1..4] de caractere
    n1: vetor[1..4] de real
@@ -32,11 +33,11 @@ inicio
    Para I <- 1 ate 4 faca
    Se (Tot>=1) entao
       Se (m[I]>MT) entao
-         Escreval(nome[I]," est· acima da mÈdia da turma que È igual a ",MT)
+         Escreval(nome[I]," est√° acima da m√©dia da turma que √© igual a ",MT)
       Fimse
    FimSe
    FimPara
    Se (Tot<1) entao
-      Escreva("Nenhum aluno est· acima da mÈdia da sla qie È igual a ",MT)
+      Escreva("Nenhum aluno est√° acima da m√©dia da sla qie √© igual a ",MT)
    Fimse
 fimalgoritmo
