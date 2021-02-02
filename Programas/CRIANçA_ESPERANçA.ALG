@@ -1,11 +1,12 @@
-algoritmo "CrianÁa_EsperanÁa"
+algoritmo "Crian√ßa_Esperan√ßa"
+//Painel que simula uma doa√ß√£o ao crian√ßa esperan√ßa
 var
    D: inteiro
    Valor:real
 
 inicio
    Escreval("-------------------")
-   Escreval(" CRIN«A ESPERAN«A ")
+   Escreval(" CRIN√áA ESPERAN√áA ")
    Escreval("-------------------")
    Escreval("Muito obrigado por ajudar")
    Escreval("[1] pra doar R$ 10 reais")
@@ -22,13 +23,13 @@ inicio
              Caso 3
                   Valor <- 50
              Caso 4
-                  Escreva("Qual o valor da doaÁ„o? ")
+                  Escreva("Qual o valor da doa√ß√£o? ")
                   Leia(Valor)
              Caso 5
                   Valor <- 0
    Fimescolha
    Escreval("-----------------------------")
-   Escreval("SUA DOA«√O FOI DE R$ ", Valor)
+   Escreval("SUA DOA√á√ÉO FOI DE R$ ", Valor)
    Escreval("-----------------------------")
 
 
