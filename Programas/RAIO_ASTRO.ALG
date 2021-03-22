@@ -1,4 +1,4 @@
-algoritmo "Raio_Astro"
+﻿algoritmo "Raio_Astro"
 //Programa para calcular o raio e a gravidade de um astro com base no diâmetro aparente, distância e massa
 var
    UA, Dis, Diam, Raio, Massa, Grav:real
@@ -48,7 +48,7 @@ inicio
       Leia(Potencia)
       Grav <- ((6.67408*10^-11)*(Massa*10^Potencia))/(1000*Raio)^2
       LimpaTela
-      Escreval("A acelaração da gravidade do astro em m/s² é igual a: ",Grav:3:2)
+      Escreval("A aceleração da gravidade do astro em m/s² é igual a: ",Grav:3:2)
    FimSe
    Escreval("O raio do astro em Km será igual a: ",Raio:12:0)
    Escreva("Gostaria de calcular o raio de outro astro? [s/n] ")
